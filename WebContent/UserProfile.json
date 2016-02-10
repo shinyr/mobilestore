@@ -1,0 +1,22 @@
+ [{
+  "name": "Adwik",
+  "password": "123",
+  "address": "TP Ganga"
+},
+{
+  "name": "Gautham",
+  "password": "123",
+  "address": "Tp Yamuna"
+},
+{
+  "name": "Ria",
+  "password": "123",
+  "address": "TP Thejaswini"
+},
+{
+  "name": "Alen",
+  "password": "123",
+  "address": "TP Leela"
+}
+]
+
