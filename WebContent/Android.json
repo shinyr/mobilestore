@@ -1,0 +1,31 @@
+[	{
+		"name":"Samsung Galaxy On5 Price",
+	    "Price": "8990",
+	    "img":"css/images/p4.gif"
+	},
+	{
+	    "name":"HTC Desire 526G+ Dual Sim 16GB Price",
+	    "Price": "7500",
+	    "img":"css/images/p4.gif"
+    },
+    {
+    	"name":"Asus ZenFone 2 Laser 2GB (ZE550KL) Price",
+        "Price": "11000",
+        "img":"css/images/p4.gif"
+    },
+    {
+    	"name":"Lava Iris Atom X",
+        "Price": "5980",
+        "img":"css/images/p4.gif"
+    },
+    {
+    	"name":"Lenovo A2010",
+        "Price": "4400",
+        "img":"css/images/p4.gif"
+    },
+    {
+    	"name":"Videocon Z40 Lite+",
+        "Owner": "3890",
+        "img":"css/images/p4.gif"
+    }
+]
