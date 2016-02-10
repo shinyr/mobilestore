@@ -170,18 +170,6 @@ display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height
 
 a.nav1:hover, a.nav2:hover, a.nav3:hover, a.nav4:hover, a.nav5:hover, a.nav6:hover {
 color:#333333;}
-.crumb_navigation{
-width:980px;
-height:15px;
-padding:5px 10px 0 20px;
-color:#333333;
-background:url(./images/navbullet.png) no-repeat left;
-background-position:5px 6px;
-}
-.crumb_navigation a{
-color:#0fa0dd;
-text-decoration:underline;
-}
 span.current{
 color:#0fa0dd;
 }
@@ -272,11 +260,6 @@ background:url(./images/blue-add.png) no-repeat left;
 padding:0 0 0 20px;
 text-decoration:none;
 color:#1c4a52;
-}
-.banner_adds{
-width:194px;
-text-align:center;
-padding:10px 0 10px 0;
 }
 .center_content{
 width:585px;
