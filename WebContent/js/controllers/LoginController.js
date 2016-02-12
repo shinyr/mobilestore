@@ -1,4 +1,4 @@
-	app.controller('LoginController', ['$scope', 'LoginService', '$location', function($scope, LoginService, $location){
+	mobileStoreApp.controller('LoginController', ['$scope', 'LoginService', '$location', function($scope, LoginService, $location){
 		$scope.login = function(user, pass){
 		$scope.submitted = true;
 		$scope.successLogin = false;

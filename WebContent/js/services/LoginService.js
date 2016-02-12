@@ -1,4 +1,4 @@
-app.factory('LoginService',['$http' , function($http) {
+mobileStoreApp.factory('LoginService',['$http' , function($http) {
 	return {
 		login : function(user, pass){
 			return $http.get('UserProfile.json')

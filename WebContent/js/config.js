@@ -1,4 +1,4 @@
-app.config(['$routeProvider',
+mobileStoreApp.config(['$routeProvider',
 	                   function($routeProvider){
 	 	  $routeProvider.when('/login',{
 	 		      templateUrl: './views/login.html',

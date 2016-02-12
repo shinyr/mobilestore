@@ -1,11 +1,14 @@
-app.controller('HomeController', ['$scope', 'HomeService', function($scope, HomeService){
+mobileStoreApp.controller('HomeController', ['$scope', 'HomeService', function($scope, HomeService){
 	
+	/* method to list the products and categories in home page*/
 	$scope.listProducts = function(){
-		console.log('list of productus');
-		HomeService.fetchProducts()
+		HomeService.listProducts()
 		.then(function(data) {
-			 $scope.products = data.data;
-		    	 console.log(JSON.stringify($scope.products));
+			 $scope.category = []; //category list
+			 $scope.models = []; // models list
+			$scope.category = data.category;
+			$scope.models = data.models;
+			
 		});
 	};
 	
