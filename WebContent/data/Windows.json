@@ -1,0 +1,46 @@
+ {
+ "Microsoft": {
+        "Microsoft Lumia 950": [
+            {
+                "Price": "8990",
+	    		"img":"css/images/MicrosoftLumia950.jpg"
+            }
+        ],
+        "Microsoft Lumia 550": [
+            {
+                "Price": "9777",
+	    		"img":"css/images/MicrosoftLumia550.jpg"
+            }
+        ],
+        "Microsoft Lumia 640 XL": [
+            {
+                "Price": "11999",
+	    		"img":"css/images/MicrosoftLumia640 XL.jpg"
+            }
+        ],
+        "Microsoft Lumia 532": [
+            {
+                "Price": "7499",
+	    		"img":"css/images/MicrosoftLumia532.jpg"
+            }
+        ],
+        "Microsoft Lumia 435": [
+            {
+                "Price": "8990",
+	    		"img":"css/images/MicrosoftLumia435.jpg"
+            }
+        ],
+        "Microsoft Lumia 535": [
+            {
+                "Price": "8990",
+	    		"img":"css/images/MicrosoftLumia535.jpg"
+            }
+        ],
+        "Microsoft Lumia 640 LTE": [
+            {
+                "Price": "8990",
+	    		"img":"css/images/MicrosoftLumia640LTE.jpg"
+            }
+        ]
+	}
+ }

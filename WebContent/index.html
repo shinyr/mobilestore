@@ -52,16 +52,14 @@
             <li><a href="#/home">Home</a></li>
             <li><a href="#/login">Login</a></li>
             <li><a href="">Contact Us</a></li>
-            <li><a href="">My Cart</a></li>
-	        <li><a href="">My Orders</a></li>
         </ul>
 
         <div class="col-sm-6 col-md-6 pull-right">
         <form class="navbar-form" role="search">
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+           <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" ng-model="search_term">
             <div class="input-group-btn">
-                <input type="image" src="css/images/search.gif" class="search_bt"/>
+                 <a href="#/home/samsung"><input type="image" src="css/images/search.gif" class="search_bt" /></a>
             </div>
         </div>
         </form>

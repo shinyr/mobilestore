@@ -12,11 +12,11 @@
     <div id="menu_tab">
       <div class="left_menu_corner"></div>
       <ul class="menu">
-        <li><a href="" class="nav2">Android</a></li>
+        <li><a href ng-click="listProducts('android')" class="nav1">Android</a></li>
         <li class="divider"></li>
-        <li><a href="" class="nav2">IOS</a></li>
+        <li><a href ng-click="listProducts('ios')" class="nav1">IOS</a></li>
         <li class="divider"></li>
-        <li><a href="" class="nav2">Windows</a></li>
+        <li><a href ng-click="listProducts('windows')" class="nav1">Windows</a></li>
         <li class="divider"></li>
       </ul>
       <div class="right_menu_corner"></div>
@@ -50,12 +50,7 @@
     </div>
     <!-- end of center content -->
     <div class="right_content">
-      <div class="title_box">What�s new</div>
-      <div class="border_box">
-      	 <div class="product_title"><a href="details.html">Iphone Apple</a></div>
-         <div class="product_img"><a href="details.html"><img src="" alt="" border="0" /></a></div>
-         <div class="prod_price"><span class="price">270$</span></div>
-      </div>
+          <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
       <div class="title_box">Manufacturers</div>
       <ul class="left_menu" ng-repeat="cat in category">
          <li class="odd"><a href="">{{cat.category}}</a></li>

@@ -1,8 +1,15 @@
 /* HomeService implements methods to list the products , categories,etc in the home page */
-mobileStoreApp.factory('HomeService',['$http', function($http) {
+mobileStoreApp.factory('HomeService',['$http','$q', function($http, $q) {
 	return{
-		listProducts: function() { //method to 
-			return $http.get('Android.json')
+		listProducts: function(platform) { //method to get the products based on platform selection.
+			var filename;
+			if(platform == 'android'){
+				filename = 'data/Android.json';
+			} else if(platform == 'windows'){
+				filename = 'data/Windows.json';
+			} else
+				filename = 'data/Ios.json';
+			return $http.get(filename)
 			.then(
 					function(response){
 						var category = []; //array to save categories
