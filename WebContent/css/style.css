@@ -139,17 +139,17 @@ height:50px;
 float:right;
 background:url(./images/menu_right.gif) no-repeat center;
 }
-ul.menu {
+ul#menu {
 list-style-type:none; float:left; display:block; width:982px; 
 margin:0px; padding:0px;background:url(./images/menu_bg.gif) repeat-x;}
 
-ul.menu li {
+ul#menu li {
 display:inline;
 font-size:11px;
 font-weight:bold;
 line-height:50px;
 }
-ul.menu li.divider {
+ul#menu li.divider {
 display:inline;
 width:2px;
 height:50px;
@@ -157,20 +157,19 @@ float:left;
 background:url(./images/menu_divider.gif) no-repeat center;
 }
 a.nav1:link, a.nav1:visited {
-display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(./images/home.png) no-repeat left; color:#676d77;}
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none;}
 a.nav2:link, a.nav2:visited {
-display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(./images/services.png) no-repeat left; color:#676d77;}
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none;}
 a.nav3:link, a.nav3:visited {
-display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(./images/favs.png) no-repeat left; color:#676d77;}
-a.nav4:link, a.nav4:visited {
-display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(./images/user_add.png) no-repeat left; color:#676d77;}
-a.nav5:link, a.nav5:visited {
-display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(./images/car.png) no-repeat left; color:#676d77;}
-a.nav6:link, a.nav6:visited {
-display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(./images/contact-new.png) no-repeat left; color:#676d77;}
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none;}
 
 a.nav1:hover, a.nav2:hover, a.nav3:hover {
 color:#333333;}
+
+ a.nav1:focus, a.nav2:focus, a.nav3:focus{
+  background-color: #999999;
+ }
+ 
 span.current{
 color:#0fa0dd;
 }

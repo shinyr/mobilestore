@@ -33,5 +33,6 @@ mobileStoreApp.factory('HomeService',['$http','$q', function($http, $q) {
 					}
 			);
 		}
+		
 	};
 }]);
