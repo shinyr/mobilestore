@@ -15,8 +15,7 @@ mobileStoreApp.controller('HomeController', ['$scope', 'HomeService', function($
 	};
 	
 	/*method to search products by its name*/
-	$scope.search_term = function(searchTerm){
-		alert(searchTerm);
+	$scope.search = function(){
 	};
 	
 	$scope.listProducts();
