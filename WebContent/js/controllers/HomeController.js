@@ -1,3 +1,4 @@
+/* HomeController initiates method to get the list of models and categories to be listed in the home page */
 mobileStoreApp.controller('HomeController', ['$scope', 'HomeService', function($scope, HomeService){
 	
 	/* array of platform */

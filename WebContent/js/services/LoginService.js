@@ -1,3 +1,4 @@
+/* LoginService implements the method to authenticate the user */
 mobileStoreApp.factory('LoginService',['$http' , function($http) {
 	return {
 		login : function(user, pass){
