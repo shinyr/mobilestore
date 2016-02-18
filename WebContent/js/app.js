@@ -1,3 +1,3 @@
-var app = angular.module("app", ['ngRoute']);
+var mobileStoreApp = angular.module("mobileStoreApp", ['ngRoute']);
 
                 
