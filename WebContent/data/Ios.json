@@ -1,0 +1,28 @@
+{
+ 	"Apple": {
+ 		"Apple iPhone 5s 16GB": [{
+ 			"Price": "20998",
+ 			"img": "css/images/Apple_iPhone_5s_L_1.jpg"
+ 		}],
+ 		"Apple iPhone 4s 32GB ": [{
+ 			"Price": "11999",
+ 			"img": "css/images/Apple_iPhone_4s_L_1.jpg"
+ 		}],
+ 		"Apple iPhone 4s 8GB": [{
+ 			"Price": "9999",
+ 			"img": "css/images/Apple_iPhone_4s_L_3.jpg"
+ 		}],
+ 		"Apple iPhone 4s 16GB": [{
+ 			"Price": "10999",
+ 			"img": "css/images/Apple_iPhone_4s_L_3 11.jpg"
+ 		}],
+ 		"Apple iPhone 4GB Price": [{
+ 			"Price": "8990",
+ 			"img": "css/images/MicrosoftLumia435.jpg"
+ 		}],
+ 		"Apple iPhone 5 16GB": [{
+ 			"Price": "19990",
+ 			"img": "css/images/Apple_iPhone_5_L_3.jpg"
+ 		}]
+ 	}
+ }
