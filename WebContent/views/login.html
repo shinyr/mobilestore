@@ -7,7 +7,9 @@
 		<div class="alert alert-danger fade in" ng-show="Login_Form.Password.$error.required && submitted">
 				Please enter the password.
 		</div>
-		
+		<div class="alert alert-danger fade in" ng-show="!successLogin && submitted">
+				Username or Password incorrect.
+		</div>
 		    <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
 			  <hr class="colorgraph"><br>
 			  <input type="text" class="form-control" name="Username" ng-model="username" placeholder="Username" required autofocus />

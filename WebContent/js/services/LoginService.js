@@ -1,7 +1,8 @@
-app.factory('LoginService',['$http' , function($http ,$q) {
+/* LoginService implements the method to authenticate the user */
+mobileStoreApp.factory('LoginService',['$http' , function($http) {
 	return {
 		login : function(user, pass){
-			return $http.get('UserProfile.json')
+			return $http.get('data/UserProfile.json')
 			.then(
 					function(response){
 						result = false;
