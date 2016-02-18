@@ -24,6 +24,13 @@
 					<div class="right_menu_corner"></div>
 				</div>
 				<!-- end of menu tab -->
+				<div class="col-sm-6 col-md-6 pull-right">
+						<div class="search">
+							<input type="text" class="form-control input-sm" maxlength="64"
+								placeholder="Search inside {{mainCategory}} phones"
+								ng-model="param.name" style="width: 190px;" />
+						</div>
+				</div>
 				<div class="left_content">
 					<div class="title_box">Categories</div>
 					<ul class="left_menu" ng-repeat="cat in category">
@@ -33,7 +40,8 @@
 				<!-- end of left content -->
 				<div class="center_content">
 					<div class="center_title_bar">Latest Products</div>
-					<div ng-repeat="mod in models" class="prod_box">
+					<div class="no_results" ng-show="!results.length">No results found</div>
+					<div ng-repeat="mod in results = (models | filter:param)" class="prod_box">
 						<div class="top_prod_box"></div>
 						<div class="center_prod_box">
 							<div class="product_title">
