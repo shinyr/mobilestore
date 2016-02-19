@@ -1,55 +1,62 @@
-<a class="show_hide_platform" id="plus_platform" data-show="no" ng-click="plselect = !plselect">+Select
-	Platform </a>
+<a class="show_hide_platform" id="plus_platform" data-show="no"
+	ng-click="plselect = !plselect"><p ng-if="plselect">-Select
+		Platform</p>
+	<p ng-if="!plselect">+Select Platform</p></a>
 <div class="animate-show" ng-show="plselect">
 	<div ng-repeat="pl in platform">
-		<input type="checkbox" name="" id=""
-			checklist-model="selected.platform" checklist-value="pl"><span>{{pl}}</span>
+		<input type="checkbox" checklist-model="selected.platform"
+			checklist-value="pl"><span>{{pl}}</span>
 	</div>
 </div>
-</br>
-<a class="show_hide_brands" id="plus" data-show="no" ng-click="brselect = !brselect">+Mobile Brands</a>
+<a class="show_hide_brands" id="plus" data-show="no"
+	ng-click="brselect = !brselect"><p ng-if="brselect">-Moblie
+		Brands</p>
+	<p ng-if="!brselect">+Moblie Brands</p></a>
 <div class="animate-show" ng-show="brselect">
 	<div ng-repeat="br in brands">
-		<input type="checkbox" name="" id="" checklist-model="selected.brands"
+		<input type="checkbox" checklist-model="selected.brands"
 			checklist-value="br"><span>{{br}}</span>
 	</div>
 </div>
-</br>
-<a class="show_hide_screen_size" id="plus_screen" data-show="no" ng-click="sselect = !sselect">+Screen
-	Size(Inches)</a>
+<a class="show_hide_screen_size" id="plus_screen" data-show="no"
+	ng-click="sselect = !sselect"><p ng-if="sselect">-Screen Size
+		(Inches)</p>
+	<p ng-if="!sselect">+Screen Size (Inches)</p></a>
 <div class="animate-show" ng-show="sselect">
 	<div ng-repeat="ss in screenSize">
-		<input type="checkbox" name="" id=""
-			checklist-model="selected.screenSize" checklist-value="ss"><span>{{ss}}</span>
+		<input type="checkbox" checklist-model="selected.screenSize"
+			checklist-value="ss"><span>{{ss}}</span>
 	</div>
 </div>
-</br>
-<a class="show_hide_processor" id="plus_processor" data-show="no" ng-click="prselect = !prselect">+Processor/No.of
-	cores</a>
+<a class="show_hide_processor" id="plus_processor" data-show="no"
+	ng-click="prselect = !prselect"><p ng-if="prselect">-Processor/No.of
+		cores</p>
+	<p ng-if="!prselect">+Processor/No.of cores</p></a>
 <div class="animate-show" ng-show="prselect">
 	<div ng-repeat="pr in processor">
-		<input type="checkbox" name="" id=""
-			checklist-model="selected.processor" checklist-value="pr"><span>{{pr}}</span>
+		<input type="checkbox" checklist-model="selected.processor"
+			checklist-value="pr"><span>{{pr}}</span>
 	</div>
 </div>
-</br>
-<a class="show_hide_camera" id="plus_camera" data-show="no" ng-click="crselect = !crselect">+Primary
-	Camera(MP)</a>
+<a class="show_hide_camera" id="plus_camera" data-show="no"
+	ng-click="crselect = !crselect"><p ng-if="crselect">-Primaryn
+		Camera(MP)</p>
+	<p ng-if="!crselect">+Primaryn Camera(MP)</p></a>
 <div class="animate-show" ng-show="crselect">
 	<div ng-repeat="cr in camera">
-		<input type="checkbox" name="" id="" checklist-model="selected.camera"
+		<input type="checkbox" checklist-model="selected.camera"
 			checklist-value="cr"><span>{{cr}}</span>
 	</div>
 </div>
-</br>
-<a class="show_hide_network" id="plus_network" data-show="no" ng-click="nwselect = !nwselect">+Network</a>
+<a class="show_hide_network" id="plus_network" data-show="no"
+	ng-click="nwselect = !nwselect"><p ng-if="nwselect">-Network</p>
+	<p ng-if="!nwselect">+Network</p></a>
 <div class="animate-show" ng-show="nwselect">
 	<div ng-repeat="nw in network">
-		<input type="checkbox" name="" id=""
-			checklist-model="selected.network" checklist-value="nw"><span>{{nw}}</span>
+		<input type="checkbox" checklist-model="selected.network"
+			checklist-value="nw"><span>{{nw}}</span>
 	</div>
 </div>
-</br>
 <button type="submit" class="btn btn-default" ng-click="apply()"
 	ng-disabled="(!selected.platform || selected.platform == '') && (!selected.brands || selected.brands == '') && (!selected.screenSize || selected.screenSize == '') && (!selected.processor || selected.processor == '') && 
 		(!selected.camera || selected.camera == '') && (!selected.network || selected.network == '')">Apply</button>
