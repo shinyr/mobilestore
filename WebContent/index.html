@@ -19,6 +19,8 @@
 <!-- load angular and angular route  -->
 <script type="text/javascript" src="./js/Shared/angular.min.js"></script>
 <script type="text/javascript" src="./js/Shared/angular-route.min.js"></script>
+<script type="text/javascript" src="./js/Shared/angular-ui-router.js"></script>
+
 <script type="text/javascript" src="./js/Shared/angular-animate.js"></script>
 
 <!-- load check list model  -->
@@ -55,14 +57,14 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
 
         <ul class="nav navbar-nav">
-            <li><a href="#/home">Home</a></li>
-            <li><a href="#/login">Login</a></li>
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="login">Login</a></li>
         </ul>
 
     </div>
 </div>
 	</header>
-	<div ng-view>
+	<div ui-view>
 	</div>
 </body>
 </html>
