@@ -1,16 +1,22 @@
-mobileStoreApp.config(['$routeProvider',
-	                   function($routeProvider){
-	 	  $routeProvider.when('/login',{
-	 		      templateUrl: './views/login.html',
-	 			  controller:'LoginController'
-	 	  }).when('/home', {
-	 		 templateUrl: './views/home.html',
-			  controller:'HomeController'
-	 	  }).when('/filter', {
-		 		 templateUrl: './views/filter.html',
-				  controller:'FilterController'
-		 	  }).otherwise({
-	 	        redirectTo: '/home'
-	      });
-	  }
-]);
+mobileStoreApp.config(function($stateProvider, $urlRouterProvider){
+	
+	 $urlRouterProvider.otherwise('/home');
+	 
+	 $stateProvider.state('login', {
+         url:'/login',
+         templateUrl: './views/login.html',
+         controller: 'LoginController',
+	 });
+	 
+	 $stateProvider.state('home', {
+         url:'/home',
+         templateUrl: './views/home.html',
+         controller: 'HomeController',
+	 });
+	 
+	 $stateProvider.state('filter', {
+         url:'/filter',
+         templateUrl: './views/filter.html',
+         controller: 'FilterController',
+	 });
+ });
