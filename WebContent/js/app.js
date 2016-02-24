@@ -1,1 +1,1 @@
-var mobileStoreApp = angular.module("mobileStoreApp", ['ngRoute', 'ngAnimate', 'checklist-model']);
+var mobileStoreApp = angular.module("mobileStoreApp", ['ui.router', 'ngAnimate', 'checklist-model']);
