@@ -18,30 +18,34 @@
 				<div id="menu_tab">
 					<div class="left_menu_corner"></div>
 					<ul class="menu">
-						<li ng-repeat="pl in platform"><a href ng-click="listProducts(pl, undefined)" class="nav1">{{pl}}</a></li>
+						<li ng-repeat="pl in platform"><a href
+							ng-click="listProducts(pl, undefined)" class="nav1">{{pl}}</a></li>
 						<li class="divider"></li>
 					</ul>
 					<div class="right_menu_corner"></div>
 				</div>
 				<!-- end of menu tab -->
 				<div class="col-sm-6 col-md-6 pull-right">
-						<div class="search">
-							<input type="text" class="form-control input-sm" maxlength="64"
-								placeholder="Search inside {{mainCategory}} phones"
-								ng-model="param.name" style="width: 190px;" />
-						</div>
+					<div class="search">
+						<input type="text" class="form-control input-sm" maxlength="64"
+							placeholder="Search inside {{mainCategory}} phones"
+							ng-model="param.name" style="width: 190px;" />
+					</div>
 				</div>
 				<div class="left_content">
 					<div class="title_box">Categories</div>
 					<ul class="left_menu" ng-repeat="cat in category">
-						<li ng-class-odd="'odd'" ng-class-even="'even'"><a href ng-click="listProducts(mainCategory, cat.category)">{{cat.category}}</a></li>
+						<li ng-class-odd="'odd'" ng-class-even="'even'"><a href
+							ng-click="listProducts(mainCategory, cat.category)">{{cat.category}}</a></li>
 					</ul>
 				</div>
 				<!-- end of left content -->
 				<div class="center_content">
 					<div class="center_title_bar">Latest Products</div>
-					<div class="no_results" ng-show="!results.length">No results found</div>
-					<div ng-repeat="mod in results = (models | filter:param)" class="prod_box">
+					<div class="no_results" ng-show="!results.length">No results
+						found</div>
+					<div ng-repeat="mod in results = (models | filter:param)"
+						class="prod_box">
 						<div class="top_prod_box"></div>
 						<div class="center_prod_box">
 							<div class="product_title">
@@ -69,9 +73,66 @@
 				</div>
 				<!-- end of center content -->
 				<div class="right_content">
-					<a href="#/filter" class="btn btn-default btn-xs btn-filter">
-						<span class="glyphicon glyphicon-filter"></span> Filter
-					</a>
+				<div class="title_box">Filter</div>
+					<a class="show_hide_platform" id="plus_platform" data-show="no"
+						ng-click="plselect = !plselect"><p ng-if="plselect">-Select
+							Platform</p>
+						<p ng-if="!plselect">+Select Platform</p></a>
+					<div class="animate-show" ng-show="plselect">
+						<div ng-repeat="pl in platform">
+							<input type="checkbox" checklist-model="selected.platform"
+								checklist-value="pl"><span>{{pl}}</span>
+						</div>
+					</div>
+					<a class="show_hide_brands" id="plus" data-show="no"
+						ng-click="brselect = !brselect"><p ng-if="brselect">-Moblie
+							Brands</p>
+						<p ng-if="!brselect">+Moblie Brands</p></a>
+					<div class="animate-show" ng-show="brselect">
+						<div ng-repeat="br in brands">
+							<input type="checkbox" checklist-model="selected.brands"
+								checklist-value="br"><span>{{br}}</span>
+						</div>
+					</div>
+					<a class="show_hide_screen_size" id="plus_screen" data-show="no"
+						ng-click="sselect = !sselect"><p ng-if="sselect">-Screen
+							Size (Inches)</p>
+						<p ng-if="!sselect">+Screen Size (Inches)</p></a>
+					<div class="animate-show" ng-show="sselect">
+						<div ng-repeat="ss in screenSize">
+							<input type="checkbox" checklist-model="selected.screenSize"
+								checklist-value="ss"><span>{{ss}}</span>
+						</div>
+					</div>
+					<a class="show_hide_processor" id="plus_processor" data-show="no"
+						ng-click="prselect = !prselect"><p ng-if="prselect">-Processor/No.of
+							cores</p>
+						<p ng-if="!prselect">+Processor/No.of cores</p></a>
+					<div class="animate-show" ng-show="prselect">
+						<div ng-repeat="pr in processor">
+							<input type="checkbox" checklist-model="selected.processor"
+								checklist-value="pr"><span>{{pr}}</span>
+						</div>
+					</div>
+					<a class="show_hide_camera" id="plus_camera" data-show="no"
+						ng-click="crselect = !crselect"><p ng-if="crselect">-Primary
+							Camera(MP)</p>
+						<p ng-if="!crselect">+Primary Camera(MP)</p></a>
+					<div class="animate-show" ng-show="crselect">
+						<div ng-repeat="cr in camera">
+							<input type="checkbox" checklist-model="selected.camera"
+								checklist-value="cr"><span>{{cr}}</span>
+						</div>
+					</div>
+					<a class="show_hide_network" id="plus_network" data-show="no"
+						ng-click="nwselect = !nwselect"><p ng-if="nwselect">-Network</p>
+						<p ng-if="!nwselect">+Network</p></a>
+					<div class="animate-show" ng-show="nwselect">
+						<div ng-repeat="nw in network">
+							<input type="checkbox" checklist-model="selected.network"
+								checklist-value="nw"><span>{{nw}}</span>
+						</div>
+					</div>
 				</div>
 				<!-- end of right content -->
 			</div>

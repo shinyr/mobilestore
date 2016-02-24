@@ -6,10 +6,7 @@ mobileStoreApp.config(['$routeProvider',
 	 	  }).when('/home', {
 	 		 templateUrl: './views/home.html',
 			  controller:'HomeController'
-	 	  }).when('/filter', {
-		 		 templateUrl: './views/filter.html',
-				  controller:'FilterController'
-		 	  }).otherwise({
+	 	  }).otherwise({
 	 	        redirectTo: '/home'
 	      });
 	  }
