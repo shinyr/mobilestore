@@ -19,4 +19,10 @@ mobileStoreApp.config(function($stateProvider, $urlRouterProvider){
          templateUrl: './views/filter.html',
          controller: 'FilterController',
 	 });
+	 
+	 $stateProvider.state('details', {
+         url:'/details',
+         templateUrl: './views/details.html',
+         controller: 'DetailsController',
+	 });
  });
