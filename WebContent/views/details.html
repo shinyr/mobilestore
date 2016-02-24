@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+<div id="main_container">
+<div class="center_content details">
+      <div class="center_title_bar">{{data.name}}</div>
+      <div class="prod_box_big">
+        <div class="center_prod_box_big">
+          <div class="product_img_big"> <a href="" title="Zoom"><img src="{{data.img}}" alt="" border="0" width="60px" height="100px"/></a>
+            <div class="thumbs"> <a href=""><img src="{{data.img}}" alt="" border="0" width="30px" height="29px"/></a> <a href="" ><img src="{{data.img}}" alt="" border="0" width="30px" height="29px"/></a> <a href=""><img src="{{data.img}}" alt="" border="0" width="30px" height="29px"/></a> </div>
+          </div>
+          <div class="details_big_box">
+            <div class="product_title_big">{{data.name}}</div>
+            <div class="specifications"> Disponibilitate: <span class="blue">In stoc</span><br />
+               Network Technology: <span class="blue">LTE</span><br />
+              Display Size: <span class="blue">5.0 inches</span><br />
+              Internal Memory: <span class="blue">16 GB, 2 GB RAM</span><br />
+              SD Card Presence/Capacity: <span class="blue">microSD, up to 64 GB</span><br />
+              OS: <span class="blue">Android</span><br />
+              Processor: <span class="blue">Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor</span><br />
+            </div>
+            <div class="prod_price_big">Price: <span class="reduce">{{data.price -- 1000}}</span> <span class="price">{{data.price}}</span></div>
+            <a href="" class="addtocart">add to cart</a>
+            <a href="" class="buynow">Buy Now</a></div>
+        </div>
+      </div>
+</div>
+</div>

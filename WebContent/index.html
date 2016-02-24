@@ -9,10 +9,10 @@
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
-		
+
 <!-- jQuery library -->
 <script src="./js/Shared/jquery.min.js"></script>
-		
+
 <!-- Latest compiled JavaScript -->
 <script src="./js/Shared/bootstrap.min.js"></script>
 
@@ -25,17 +25,19 @@
 
 <!-- load check list model  -->
 <script type="text/javascript" src="./js/Shared/checklist-model.min.js"></script>
-      
+
 <script type="text/javascript" src="./js/app.js"></script>
-<script type="text/javascript" src="./js/config.js"></script> 
-        
-<!-- Controllers --> 
+<script type="text/javascript" src="./js/config.js"></script>
+
+<!-- Controllers -->
 <script type="text/javascript" src="./js/controllers/LoginController.js"></script>
 <script type="text/javascript" src="./js/controllers/HomeController.js"></script>
-<script type="text/javascript" src="./js/controllers/FilterController.js"></script>
-<script type="text/javascript" src="./js/controllers/DetailsController.js"></script>
+<script type="text/javascript"
+	src="./js/controllers/FilterController.js"></script>
+<script type="text/javascript"
+	src="./js/controllers/DetailsController.js"></script>
 
-<!-- Services --> 
+<!-- Services -->
 <script type="text/javascript" src="./js/services/LoginService.js"></script>
 <script type="text/javascript" src="./js/services/HomeService.js"></script>
 <script type="text/javascript" src="./js/services/ShareDataService.js"></script>
@@ -44,29 +46,40 @@
 </head>
 <body ng-app="mobileStoreApp">
 	<header>
-	<div class="" role="navigation">
+		<div class="" role="navigation">
 
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-        <a href="#/home"><img src="css/images/footer_logo.png" alt="" width="170" height="70"/></a>
-    </div>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a ui-sref="home"><img src="css/images/footer_logo.png" alt=""
+					width="170" height="70" /></a>
+			</div>
 
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
 
-        <ul class="nav navbar-nav">
-            <li><a ui-sref="home">Home</a></li>
-            <li><a ui-sref="login">Login</a></li>
-        </ul>
+				<ul class="nav navbar-nav">
+					<li><a ui-sref="home">Home</a></li>
+					<li><a ui-sref="login">Login</a></li>
+				</ul>
 
-    </div>
-</div>
+			</div>
+		</div>
 	</header>
-	<div ui-view>
+	<div class="main" ui-view></div>
+	<div class="footer">
+		<div class="left_footer">
+			<img src="css/images/footer_logo.png" alt="" width="170" height="49" />
+		</div>
+		<div class="center_footer">
+			Template name. All Rights Reserved 2008<br /> <a
+				href="http://csscreme.com"><img src="css/images/csscreme.jpg"
+				alt="csscreme" border="0" /></a><br /> <img
+				src="css/images/payment.gif" alt="" />
+		</div>
 	</div>
 </body>
 </html>
