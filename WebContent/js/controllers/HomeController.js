@@ -1,5 +1,5 @@
 /* HomeController initiates method to get the list of models and categories to be listed in the home page */
-mobileStoreApp.controller('HomeController', ['$scope', 'HomeService', function($scope, HomeService){
+mobileStoreApp.controller('HomeController', ['$scope', 'sharedData', 'HomeService', '$location', function($scope, sharedData, HomeService, $location){
 	
 	/* array of platform */
 	$scope.platform = [
@@ -17,10 +17,16 @@ mobileStoreApp.controller('HomeController', ['$scope', 'HomeService', function($
 		.then(function(data) {
 			 $scope.category = []; //category list
 			 $scope.models = []; // models list
-			$scope.category = data.category;
-			$scope.models = data.models;
+			 $scope.category = data.category;
+			 $scope.models = data.models;
 			
 		});
+	};
+
+	$scope.details = function(data){
+		 var next = sharedData;
+		 next.set(data);
+		$location.path('/details');
 	};
 	
 	$scope.listProducts();
