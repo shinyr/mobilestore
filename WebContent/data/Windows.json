@@ -3,43 +3,99 @@
         "Microsoft Lumia 950": [
             {
                 "Price": "8990",
-	    		"img":"css/images/MicrosoftLumia950.jpg"
+	    		"img":"css/images/MicrosoftLumia950.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Microsoft Lumia 550": [
             {
                 "Price": "9777",
-	    		"img":"css/images/MicrosoftLumia550.jpg"
+	    		"img":"css/images/MicrosoftLumia550.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Microsoft Lumia 640 XL": [
             {
                 "Price": "11999",
-	    		"img":"css/images/MicrosoftLumia640 XL.jpg"
+	    		"img":"css/images/MicrosoftLumia640 XL.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Microsoft Lumia 532": [
             {
                 "Price": "7499",
-	    		"img":"css/images/MicrosoftLumia532.jpg"
+	    		"img":"css/images/MicrosoftLumia532.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Microsoft Lumia 435": [
             {
                 "Price": "8990",
-	    		"img":"css/images/MicrosoftLumia435.jpg"
+	    		"img":"css/images/MicrosoftLumia435.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Microsoft Lumia 535": [
             {
                 "Price": "8990",
-	    		"img":"css/images/MicrosoftLumia535.jpg"
+	    		"img":"css/images/MicrosoftLumia535.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Microsoft Lumia 640 LTE": [
             {
                 "Price": "8990",
-	    		"img":"css/images/MicrosoftLumia640LTE.jpg"
+	    		"img":"css/images/MicrosoftLumia640LTE.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ]
 	}

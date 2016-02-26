@@ -3,37 +3,85 @@
         "Samsung Galaxy On5 Price": [
             {
                 "Price": "8990",
-	    		"img":"css/images/SamsungGalaxyOn5Price.jpg"
+	    		"img":"css/images/SamsungGalaxyOn5Price.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Samsung Galaxy Tab E 8.0": [
             {
                 "Price": "9777",
-	    		"img":"css/images/SamsungGalaxyTabE8.0.jpg"
+	    		"img":"css/images/SamsungGalaxyTabE8.0.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"HSPA",
+	    		"display":"5.5 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Quadcore MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Samsung Galaxy J1": [
             {
                 "Price": "11999",
-	    		"img":"css/images/SamsungGalaxyJ1.jpg"
+	    		"img":"css/images/SamsungGalaxyJ1.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.7 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Octacore MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Samsung Galaxy A9": [
             {
                 "Price": "7499",
-	    		"img":"css/images/SamsungGalaxyA9.jpg"
+	    		"img":"css/images/SamsungGalaxyA9.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"EDGE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Samsung Galaxy A7": [
             {
                 "Price": "8990",
-	    		"img":"css/images/SamsungGalaxyA7.jpg"
+	    		"img":"css/images/SamsungGalaxyA7.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"HSPA",
+	    		"display":"5.5 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Octacore MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Samsung Galaxy J3": [
             {
                 "Price": "8990",
-	    		"img":"css/images/SamsungGalaxyJ3.jpeg"
+	    		"img":"css/images/SamsungGalaxyJ3.jpeg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"6.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Quadcore MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ]
     },
@@ -41,37 +89,85 @@
         "Sony Galaxy On5 Price": [
             {
                 "Price": "8990",
-	    		"img":"css/images/SamsungGalaxyOn5Price.jpg"
+	    		"img":"css/images/SamsungGalaxyOn5Price.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"6.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 128 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Sony Galaxy Tab E 8.0": [
             {
                 "Price": "9777",
-	    		"img":"css/images/SamsungGalaxyTabE8.0.jpg"
+	    		"img":"css/images/SamsungGalaxyTabE8.0.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"6.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Quadcore MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Sony Galaxy J1": [
             {
                 "Price": "11999",
-	    		"img":"css/images/SamsungGalaxyJ1.jpg"
+	    		"img":"css/images/SamsungGalaxyJ1.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"6.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 32 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Sony Galaxy A9": [
             {
                 "Price": "7499",
-	    		"img":"css/images/SamsungGalaxyA9.jpg"
+	    		"img":"css/images/SamsungGalaxyA9.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"EDGE",
+	    		"display":"5.5 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Sony Galaxy A7": [
             {
                 "Price": "8990",
-	    		"img":"css/images/SamsungGalaxyA7.jpg"
+	    		"img":"css/images/SamsungGalaxyA7.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"6.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Octacore MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ],
         "Sony Galaxy J3": [
             {
                 "Price": "8990",
-	    		"img":"css/images/SamsungGalaxyJ3.jpeg"
+	    		"img":"css/images/SamsungGalaxyJ3.jpeg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"HSPA",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 128 GB",
+	    		"processor":"Quadcore MSM8909 32 bit ,1.1 GHz quad core Processor"
             }
         ]
     }

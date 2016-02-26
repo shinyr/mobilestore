@@ -23,6 +23,14 @@ mobileStoreApp.factory('HomeService',['$http','$q', function($http, $q) {
 										mod.name = key1;
 										mod.price = value1[0].Price;
 										mod.img = value1[0].img;
+										mod.img1 = value1[0].img1;
+										mod.img2 = value1[0].img2;
+										mod.img3 = value1[0].img3;
+										mod.network = value1[0].network;
+										mod.display = value1[0].display;
+										mod.sdcard = value1[0].sdcard;
+										mod.memory = value1[0].memory;
+										mod.processor = value1[0].processor;
 										models.push(mod);
 									});
 								}
