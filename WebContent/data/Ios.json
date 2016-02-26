@@ -1,28 +1,76 @@
 {
  	"Apple": {
  		"Apple iPhone 5s 16GB": [{
- 			"Price": "20998",
- 			"img": "css/images/Apple_iPhone_5s_L_1.jpg"
+	 			"Price": "20998",
+	 			"img": "css/images/Apple_iPhone_5s_L_1.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
  		}],
  		"Apple iPhone 4s 32GB ": [{
- 			"Price": "11999",
- 			"img": "css/images/Apple_iPhone_4s_L_1.jpg"
+	 			"Price": "11999",
+	 			"img": "css/images/Apple_iPhone_4s_L_1.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
  		}],
  		"Apple iPhone 4s 8GB": [{
- 			"Price": "9999",
- 			"img": "css/images/Apple_iPhone_4s_L_3.jpg"
+	 			"Price": "9999",
+	 			"img": "css/images/Apple_iPhone_4s_L_3.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
  		}],
  		"Apple iPhone 4s 16GB": [{
- 			"Price": "10999",
- 			"img": "css/images/Apple_iPhone_4s_L_3 11.jpg"
+	 			"Price": "10999",
+	 			"img": "css/images/Apple_iPhone_4s_L_3 11.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
  		}],
  		"Apple iPhone 4GB Price": [{
- 			"Price": "8990",
- 			"img": "css/images/MicrosoftLumia435.jpg"
+	 			"Price": "8990",
+	 			"img": "css/images/MicrosoftLumia435.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
  		}],
  		"Apple iPhone 5 16GB": [{
- 			"Price": "19990",
- 			"img": "css/images/Apple_iPhone_5_L_3.jpg"
+	 			"Price": "19990",
+	 			"img": "css/images/Apple_iPhone_5_L_3.jpg",
+	    		"img1":"css/images/img1.jpg",
+	    		"img2":"css/images/img2.jpg",
+	    		"img3":"css/images/img3.jpg",
+	    		"network":"LTE",
+	    		"display":"5.0 inches",
+	    		"memory":"16 GB, 2 GB RAM",
+	    		"sdcard":"microSD, up to 64 GB",
+	    		"processor":"Qualcomm MSM8909 32 bit ,1.1 GHz quad core Processor"
  		}]
  	}
  }
