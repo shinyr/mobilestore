@@ -2,6 +2,7 @@
 	margin-top: 80px;
 	margin-bottom: 20px;
 }
+
 .form-signin {
 	max-width: 420px;
 	padding: 30px 38px 66px;
@@ -370,6 +371,7 @@ a.join {
 .details {
 	margin-bottom: 37vh;
 }
+
 .center_title_bar {
 	width: 520px;
 	height: 33px;
@@ -476,6 +478,12 @@ a.prod_details {
 	_margin: 6px 0 0 35px;
 	text-decoration: none;
 	color: #0fa0dd;
+}
+
+a.bigimg {
+	width: 100px;
+	height: 27px;
+	color: #1c4a52;
 }
 
 .prod_box_big {
@@ -620,19 +628,44 @@ span.blue {
 	color: #847676;
 	font-weight: bold;
 }
-  .animate-show {
-    line-height:20px;
-    opacity:1;
-    padding:10px;
-  }
-  .animate-show.ng-hide-add.ng-hide-add-active,
-  .animate-show.ng-hide-remove.ng-hide-remove-active {
-    -webkit-transition:all linear 0.5s;
-    transition:all linear 0.5s;
-  }
-  .animate-show.ng-hide {
-    line-height:0;
-    opacity:0;
-    padding:0 10px;
-  }
-  
+
+.animate-show {
+	line-height: 20px;
+	opacity: 1;
+	padding: 10px;
+}
+
+.animate-show.ng-hide-add.ng-hide-add-active,.animate-show.ng-hide-remove.ng-hide-remove-active
+	{
+	-webkit-transition: all linear 0.5s;
+	transition: all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+	line-height: 0;
+	opacity: 0;
+	padding: 0 10px;
+}
+
+.popover {
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	display: block;
+	padding: 0 20px;
+}
+
+.popover span {
+	display: block;
+	font-weight: 700;
+}
+
+.popup {
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	opacity: 2;
+	left: 40vw;
+}
